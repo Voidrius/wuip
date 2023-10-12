@@ -1,0 +1,29 @@
+{
+    "employees":[
+        {"id":1,"first_name":"Ailene","last_name":"Olijve","email":"aolijve0@fda.gov","phone":"465-818-5204","title":"Developer III","department":"Services","image":"https://randomuser.me/api/portraits/women/65.jpg"},
+        {"id":2,"first_name":"Yance","last_name":"Munby","email":"ymunby1@washingtonpost.com","phone":"164-818-9861","title":"VP Quality Control","department":"Research and Development","image":"https://randomuser.me/api/portraits/women/24.jpg"},
+        {"id":3,"first_name":"Frederigo","last_name":"Roncelli","email":"froncelli2@auda.org.au","phone":"298-395-2954","title":"VP Quality Control","department":"Training","image":"https://randomuser.me/api/portraits/men/52.jpg"},
+        {"id":4,"first_name":"Cozmo","last_name":"Hollerin","email":"chollerin3@lulu.com","phone":"715-711-6076","title":"Senior Cost Accountant","department":"Business Development","image":"https://randomuser.me/api/portraits/men/20.jpg"},
+        {"id":5,"first_name":"Abigail","last_name":"Helkin","email":"ahelkin4@china.com.cn","phone":"701-377-5084","title":"Technical Writer","department":"Product Management","image":"https://randomuser.me/api/portraits/men/24.jpg"},
+        {"id":6,"first_name":"Charlotta","last_name":"Fox","email":"cfox5@alibaba.com","phone":"286-921-9845","title":"Quality Control Specialist","department":"Marketing","image":"https://randomuser.me/api/portraits/women/23.jpg"},
+        {"id":7,"first_name":"Lester","last_name":"Ciobutaro","email":"lciobutaro6@webeden.co.uk","phone":"302-703-0677","title":"Human Resources Manager","department":"Accounting","image":"https://randomuser.me/api/portraits/women/21.jpg"},
+        {"id":8,"first_name":"Odell","last_name":"Rainsdon","email":"orainsdon7@kickstarter.com","phone":"892-418-7571","title":"VP Product Management","department":"Accounting","image":"https://randomuser.me/api/portraits/men/83.jpg"},
+        {"id":9,"first_name":"Jehanna","last_name":"Shevelin","email":"jshevelin8@storify.com","phone":"816-494-2703","title":"Desktop Support Technician","department":"Accounting","image":"https://randomuser.me/api/portraits/women/63.jpg"},
+        {"id":10,"first_name":"Carmelle","last_name":"Jankovic","email":"cjankovic9@ibm.com","phone":"478-137-7810","title":"Help Desk Operator","department":"Research and Development","image":"https://randomuser.me/api/portraits/women/42.jpg"},
+        {"id":11,"first_name":"Tallulah","last_name":"Hullock","email":"thullocka@accuweather.com","phone":"813-781-0751","title":"Media Manager II","department":"Accounting","image":"https://randomuser.me/api/portraits/women/85.jpg"},
+        {"id":12,"first_name":"Myca","last_name":"Bendix","email":"mbendixb@woothemes.com","phone":"772-569-7898","title":"Senior Editor","department":"Marketing","image":"https://randomuser.me/api/portraits/women/62.jpg"},
+        {"id":13,"first_name":"Moyna","last_name":"Tideswell","email":"mtideswellc@paypal.com","phone":"958-199-5838","title":"Business Systems Development Analyst","department":"Marketing","image":"https://randomuser.me/api/portraits/women/43.jpg"},
+        {"id":14,"first_name":"Brit","last_name":"Newman","email":"bnewmand@mlb.com","phone":"207-609-2020","title":"Project Manager","department":"Services","image":"https://randomuser.me/api/portraits/women/52.jpg"},
+        {"id":15,"first_name":"Nolly","last_name":"Dade","email":"ndadee@yelp.com","phone":"395-495-9367","title":"Assistant Professor","department":"Support","image":"https://randomuser.me/api/portraits/women/47.jpg"},
+        {"id":16,"first_name":"Camila","last_name":"Weekly","email":"cweeklyf@ca.gov","phone":"490-861-6409","title":"Software Engineer II","department":"Support","image":"https://randomuser.me/api/portraits/women/57.jpg"},
+        {"id":17,"first_name":"Michaella","last_name":"Andrioletti","email":"mandriolettig@bloglines.com","phone":"325-443-2176","title":"Developer III","department":"Human Resources","image":"https://randomuser.me/api/portraits/women/35.jpg"},
+        {"id":18,"first_name":"Natalina","last_name":"Aldin","email":"naldinh@webmd.com","phone":"856-844-8810","title":"Quality Engineer","department":"Sales","image":"https://randomuser.me/api/portraits/women/38.jpg"},
+        {"id":19,"first_name":"Mommy","last_name":"Ommundsen","email":"mommundseni@digg.com","phone":"284-539-4315","title":"Editor","department":"Marketing","image":"https://randomuser.me/api/portraits/men/25.jpg"},
+        {"id":20,"first_name":"Anastasie","last_name":"Maxfield","email":"amaxfieldj@statcounter.com","phone":"766-603-8185","title":"Director of Sales","department":"Human Resources","image":"https://randomuser.me/api/portraits/men/58.jpg"},
+        {"id":21,"first_name":"Rickey","last_name":"Lichtfoth","email":"rlichtfothk@foxnews.com","phone":"436-800-5829","title":"Geological Engineer","department":"Research and Development","image":"https://randomuser.me/api/portraits/men/66.jpg"},
+        {"id":22,"first_name":"Ebeneser","last_name":"O'Moylan","email":"eomoylanl@zimbio.com","phone":"155-326-0929","title":"Quality Control Specialist","department":"Sales","image":"https://randomuser.me/api/portraits/men/96.jpg"},
+        {"id":23,"first_name":"Helenelizabeth","last_name":"Barnewell","email":"hbarnewellm@tamu.edu","phone":"702-823-5116","title":"Nuclear Power Engineer","department":"Engineering","image":"https://randomuser.me/api/portraits/men/48.jpg"},
+        {"id":24,"first_name":"Lesli","last_name":"Wyllie","email":"lwyllien@nationalgeographic.com","phone":"837-135-7549","title":"Senior Quality Engineer","department":"Services","image":"https://randomuser.me/api/portraits/women/35.jpg"},
+        {"id":25,"first_name":"Jase","last_name":"Renouf","email":"jrenoufo@ycombinator.com","phone":"631-235-0373","title":"Senior Developer","department":"Support","image":"https://randomuser.me/api/portraits/men/92.jpg"}
+    ]
+}
