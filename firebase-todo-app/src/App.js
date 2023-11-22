@@ -27,8 +27,6 @@ const firebaseConfig = {
   measurementId: "G-KGDQYVZNJH",
 };
 
-// Initialize Firebase
-
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 const auth = getAuth(app);
@@ -44,44 +42,40 @@ function ToDoFormAndList() {
   const navigate = useNavigate();
   useEffect(() => {
     const fetchData = async () => {
-      // connect todos collection
       const todosCol = collection(db, "todos");
       const todoSnapshot = await getDocs(todosCol);
-      // todo text and id
-      // document id is unique, so it can be used with deleting todo
+
       const todos = todoSnapshot.docs.map((doc) => {
         return {
           text: doc.data().text,
           id: doc.id,
         };
       });
-      // set states
+
       console.log(todos);
       setItems(todos);
       setLoading(false);
     };
-    // start loading data
+
     console.log("fetch data...");
     fetchData();
-  }, []); // called only once
+  }, []);
 
   const handleSubmit = async (event) => {
-    // prevent normal submit event
     event.preventDefault();
-    // add item to Firebase
+
     let newItem = { text: itemText };
     const docRef = await addDoc(collection(db, "todos"), newItem);
-    // get added doc id and set id to newItem
+
     newItem.id = docRef.id;
-    // update states in App
+
     setItems([...items, newItem]);
-    // modify newItem text to ""
+
     setItemText("");
   };
   const removeItem = (item) => {
-    // delete from firebase
     deleteDoc(doc(db, "todos", item.id));
-    // delete from items state and update state
+
     let filteredArray = items.filter(
       (collectionItem) => collectionItem.id !== item.id
     );
